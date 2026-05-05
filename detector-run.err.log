@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "D:\Project\OD Gudang\python\object_detection_publisher.py", line 250, in <module>
+    raise SystemExit(main())
+                     ~~~~^^
+  File "D:\Project\OD Gudang\python\object_detection_publisher.py", line 175, in main
+    ok, frame = camera.read()
+                ~~~~~~~~~~~^^
+KeyboardInterrupt

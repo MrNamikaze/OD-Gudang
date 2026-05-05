@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pengaturan | OD Gudang</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css?v=20260422b">
+</head>
+<body data-page="pengaturan">
+  <div id="app" class="app-shell">
+    <aside class="sidebar">
+      <div class="brand-block">
+        <div class="brand-mark">OD</div>
+        <div>
+          <strong>OD Gudang</strong>
+          <span>Sistem Monitoring</span>
+        </div>
+      </div>
+      <nav class="menu">
+        <a v-for="item in navItems" :key="item.href" :href="item.href" :class="{ active: item.key === currentPage }">
+          {{ item.label }}
+        </a>
+      </nav>
+      <div class="sidebar-foot card compact">
+        <span class="muted">Pengguna aktif</span>
+        <strong>{{ currentUser.username }}</strong>
+        <button class="btn btn-secondary" @click="logout">Logout</button>
+      </div>
+    </aside>
+
+    <main class="main-content">
+      <header class="topbar">
+        <div>
+          <span class="eyebrow">Konfigurasi</span>
+          <h1>Pengaturan Sistem</h1>
+        </div>
+      </header>
+
+      <section class="settings-grid">
+        <article class="card panel">
+          <div class="panel-head">
+            <div>
+              <span class="eyebrow">API</span>
+              <h2>Koneksi Backend</h2>
+            </div>
+          </div>
+          <div class="field-grid">
+            <label class="field">
+              <span>Base URL API</span>
+              <input value="https://api.od-gudang.local/api" type="text" readonly>
+            </label>
+            <label class="field">
+              <span>Mode Sinkronisasi</span>
+              <input value="WebSocket / Polling" type="text" readonly>
+            </label>
+          </div>
+        </article>
+
+        <article class="card panel">
+          <div class="panel-head">
+            <div>
+              <span class="eyebrow">Deteksi</span>
+              <h2>Parameter Sistem</h2>
+            </div>
+          </div>
+          <div class="field-grid">
+            <label class="field">
+              <span>Confidence Threshold</span>
+              <input value="0.80" type="text" readonly>
+            </label>
+          </div>
+        </article>
+      </section>
+    </main>
+  </div>
+
+  <script src="https://unpkg.com/vue@3/dist/vue.global.prod.js"></script>
+  <script src="app.js?v=20260422b"></script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+{
+  "rabbitmq_host": "localhost",
+  "rabbitmq_port": 5672,
+  "rabbitmq_username": "admin",
+  "rabbitmq_password": "123456",
+  "rabbitmq_virtual_host": "/",
+  "rabbitmq_queue": "odgudang.detections",
+  "camera_id": "CAM_OBJECT_01",
+  "zone": "webcam",
+  "camera_index": 0,
+  "confidence_threshold": 0.55,
+  "detection_cooldown_seconds": 10,
+  "live_frame_output_path": "../backend/App_Data/Uploads/live",
+  "live_frame_interval_ms": 1000,
+  "show_preview": true,
+  "model_prototxt": "models/MobileNetSSD_deploy.prototxt",
+  "model_weights": "models/MobileNetSSD_deploy.caffemodel",
+  "labels_file": "models/mobilenet_ssd_classes.txt"
+}
+
+
+

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard | OD Gudang</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css?v=20260422b">
+</head>
+<body data-page="dashboard">
+  <div id="app" class="app-shell">
+    <aside class="sidebar">
+      <div class="brand-block">
+        <div class="brand-mark">OD</div>
+        <div>
+          <strong>OD Gudang</strong>
+          <span>Sistem Monitoring</span>
+        </div>
+      </div>
+
+      <nav class="menu">
+        <a v-for="item in navItems" :key="item.href" :href="item.href" :class="{ active: item.key === currentPage }">
+          {{ item.label }}
+        </a>
+      </nav>
+
+      <div class="sidebar-foot card compact">
+        <span class="muted">Login sebagai</span>
+        <strong>{{ currentUser.username }}</strong>
+        <button class="btn btn-secondary" @click="logout">Logout</button>
+      </div>
+    </aside>
+
+    <main class="main-content">
+      <header class="topbar">
+        <div>
+          <span class="eyebrow">Ringkasan Operasional</span>
+          <h1>Dashboard Deteksi Object</h1>
+        </div>
+        <div class="topbar-meta card compact">
+          <span>Status Sistem</span>
+          <strong class="status online">Online</strong>
+        </div>
+      </header>
+
+      <section class="stats-grid">
+        <article class="card stat-card accent">
+          <span>Total Deteksi Hari Ini</span>
+          <strong>{{ todayDetections }}</strong>
+          <small>Naik {{ growthRate }}% dari kemarin</small>
+        </article>
+        <article class="card stat-card">
+          <span>Kamera Aktif</span>
+          <strong>{{ activeCameras }}</strong>
+          <small>{{ offlineCameras }} kamera sedang offline</small>
+        </article>
+        <article class="card stat-card">
+          <span>Objek Terbanyak</span>
+          <strong>{{ topObject.name }}</strong>
+          <small>{{ topObject.count }} deteksi tercatat</small>
+        </article>
+        <article class="card stat-card">
+          <span>Confidence Rata-rata</span>
+          <strong>{{ averageConfidence }}%</strong>
+          <small>Berbasis event terbaru</small>
+        </article>
+      </section>
+
+      <section class="content-grid">
+        <article class="card panel">
+          <div class="panel-head">
+            <div>
+              <span class="eyebrow">Kamera Prioritas</span>
+              <h2>Live Monitoring Snapshot</h2>
+            </div>
+            <a class="link-chip" href="monitoring.html">Lihat Monitoring</a>
+          </div>
+          <div class="camera-grid">
+            <div v-for="camera in cameras.slice(0, 4)" :key="camera.id" class="camera-card">
+              <div class="camera-feed">
+                <span class="badge">{{ camera.objectFocus }}</span>
+                <span class="camera-status" :class="camera.status">{{ camera.status }}</span>
+              </div>
+              <div class="camera-info">
+                <strong>{{ camera.name }}</strong>
+                <span>{{ camera.location }}</span>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="card panel">
+          <div class="panel-head">
+            <div>
+              <span class="eyebrow">Event Terbaru</span>
+              <h2>Deteksi Masuk</h2>
+            </div>
+            <a class="link-chip" href="laporan.html">Buka Laporan</a>
+          </div>
+          <div class="event-list">
+            <div v-for="event in recentDetections.slice(0, 6)" :key="event.id" class="event-item">
+              <div>
+                <strong>{{ event.objectName }}</strong>
+                <span>{{ event.cameraId }} • {{ formatTimestamp(event.timestampUtc) }}</span>
+              </div>
+              <div class="event-meta">
+                <span>{{ Math.round(event.confidence * 100) }}%</span>
+                <span class="pill">{{ event.zone }}</span>
+              </div>
+            </div>
+          </div>
+        </article>
+      </section>
+    </main>
+  </div>
+
+  <script src="https://unpkg.com/vue@3/dist/vue.global.prod.js"></script>
+  <script src="app.js?v=20260422b"></script>
+</body>
+</html>

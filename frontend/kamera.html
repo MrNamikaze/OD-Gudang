@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kamera | OD Gudang</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css?v=20260422b">
+</head>
+<body data-page="kamera">
+  <div id="app" class="app-shell">
+    <aside class="sidebar">
+      <div class="brand-block">
+        <div class="brand-mark">OD</div>
+        <div>
+          <strong>OD Gudang</strong>
+          <span>Sistem Monitoring</span>
+        </div>
+      </div>
+      <nav class="menu">
+        <a v-for="item in navItems" :key="item.href" :href="item.href" :class="{ active: item.key === currentPage }">
+          {{ item.label }}
+        </a>
+      </nav>
+      <div class="sidebar-foot card compact">
+        <span class="muted">Pengguna aktif</span>
+        <strong>{{ currentUser.username }}</strong>
+        <button class="btn btn-secondary" @click="logout">Logout</button>
+      </div>
+    </aside>
+
+    <main class="main-content">
+      <header class="topbar">
+        <div>
+          <span class="eyebrow">Manajemen Kamera</span>
+          <h1>Daftar CCTV Gudang</h1>
+        </div>
+      </header>
+
+      <section class="card panel">
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>ID Kamera</th>
+                <th>Nama</th>
+                <th>Lokasi</th>
+                <th>Status</th>
+                <th>Objek Fokus</th>
+                <th>RTSP</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr v-for="camera in cameras" :key="camera.id">
+                <td>{{ camera.id }}</td>
+                <td>{{ camera.name }}</td>
+                <td>{{ camera.location }}</td>
+                <td><span class="pill" :class="camera.status">{{ camera.status }}</span></td>
+                <td>{{ camera.objectFocus }}</td>
+                <td>{{ camera.stream }}</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <script src="https://unpkg.com/vue@3/dist/vue.global.prod.js"></script>
+  <script src="app.js?v=20260422b"></script>
+</body>
+</html>

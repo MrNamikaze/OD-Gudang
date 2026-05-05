@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "YN2w8MDkrlg=",
+  "success": true,
+  "projectFilePath": "D:\\Project\\OD Gudang\\backend\\backend.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Syahrul\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512",
+    "C:\\Users\\Syahrul\\.nuget\\packages\\npgsql\\10.0.0-rc.1\\npgsql.10.0.0-rc.1.nupkg.sha512",
+    "C:\\Users\\Syahrul\\.nuget\\packages\\rabbitmq.client\\6.8.1\\rabbitmq.client.6.8.1.nupkg.sha512"
+  ],
+  "logs": []
+}

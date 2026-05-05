@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login | OD Gudang</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css?v=20260422b">
+</head>
+<body data-page="login">
+  <main id="app" class="auth-shell">
+    <section class="auth-panel auth-brand">
+      <span class="eyebrow">Object Detection System</span>
+      <h1>Monitoring gudang real-time yang cepat dipantau.</h1>
+      <p>
+        Pantau CCTV, hasil deteksi objek, statistik harian, dan laporan operasional
+        dalam satu dashboard yang ringkas.
+      </p>
+
+      <div class="auth-feature-list">
+        <article>
+          <strong>Live Monitoring</strong>
+          <span>Menampilkan kamera aktif dan event deteksi terbaru.</span>
+        </article>
+        <article>
+          <strong>Laporan Cepat</strong>
+          <span>Filter per tanggal, kamera, dan jenis objek lalu ekspor data.</span>
+        </article>
+        <article>
+          <strong>Statistik Harian</strong>
+          <span>Ringkasan jumlah deteksi dan kamera terpadat.</span>
+        </article>
+      </div>
+    </section>
+
+    <section class="auth-panel auth-form-wrap">
+      <form class="auth-form card" @submit.prevent="login">
+        <div>
+          <span class="eyebrow">Masuk Sistem</span>
+          <h2>Login Dashboard</h2>
+          <p>Gunakan akun demo untuk masuk ke frontend.</p>
+        </div>
+
+        <label class="field">
+          <span>Username</span>
+          <input v-model="username" type="text" placeholder="Masukkan username" autocomplete="username">
+        </label>
+
+        <label class="field">
+          <span>Password</span>
+          <input v-model="password" type="password" placeholder="Masukkan password" autocomplete="current-password">
+        </label>
+
+        <button class="btn btn-primary btn-block" type="submit">{{ loading ? 'Memproses...' : 'Masuk' }}</button>
+
+        <p class="helper-text">
+          Demo akun: <strong>admin / Admin!23456</strong> dan <strong>operator / User!23456</strong>
+        </p>
+        <p v-if="error" class="error-text">{{ error }}</p>
+      </form>
+    </section>
+  </main>
+
+  <script src="https://unpkg.com/vue@3/dist/vue.global.prod.js"></script>
+  <script src="app.js?v=20260422b"></script>
+</body>
+</html>

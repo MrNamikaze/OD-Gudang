@@ -1,0 +1,34 @@
+info: backend.Services.RabbitMqDetectionConsumer[0]
+      RabbitMQ consumer connected to queue odgudang.detections
+info: Microsoft.Hosting.Lifetime[14]
+      Now listening on: http://127.0.0.1:5181
+info: Microsoft.Hosting.Lifetime[0]
+      Application started. Press Ctrl+C to shut down.
+info: Microsoft.Hosting.Lifetime[0]
+      Hosting environment: Production
+info: Microsoft.Hosting.Lifetime[0]
+      Content root path: D:\Project\OD Gudang\backend
+info: backend.Services.RabbitMqDetectionConsumer[0]
+      Detection event 20260502175758613645 stored for object chair from camera CAM_OBJECT_01
+info: backend.Services.RabbitMqDetectionConsumer[0]
+      Detection event 20260502175759921665 stored for object chair from camera CAM_OBJECT_01
+info: backend.Services.RabbitMqDetectionConsumer[0]
+      Detection event 20260502175802952806 stored for object chair from camera CAM_OBJECT_01
+info: backend.Services.RabbitMqDetectionConsumer[0]
+      Detection event 20260502175805997489 stored for object chair from camera CAM_OBJECT_01
+info: backend.Services.RabbitMqDetectionConsumer[0]
+      Detection event 20260502175809015561 stored for object chair from camera CAM_OBJECT_01
+info: backend.Services.RabbitMqDetectionConsumer[0]
+      Detection event 20260502175812074708 stored for object chair from camera CAM_OBJECT_01
+info: backend.Services.RabbitMqDetectionConsumer[0]
+      Detection event 20260502175815146821 stored for object chair from camera CAM_OBJECT_01
+info: backend.Services.RabbitMqDetectionConsumer[0]
+      Detection event 20260502175818220838 stored for object person from camera CAM_OBJECT_01
+info: backend.Services.RabbitMqDetectionConsumer[0]
+      Detection event 20260502175818232070 stored for object chair from camera CAM_OBJECT_01
+info: backend.Services.RabbitMqDetectionConsumer[0]
+      Detection event 20260502175821382526 stored for object person from camera CAM_OBJECT_01
+info: backend.Services.RabbitMqDetectionConsumer[0]
+      Detection event 20260502175824625672 stored for object person from camera CAM_OBJECT_01
+warn: Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware[3]
+      Failed to determine the https port for redirect.

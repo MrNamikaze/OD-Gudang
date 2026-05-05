@@ -1,0 +1,21 @@
+FROM mcr.microsoft.com/dotnet/sdk:10.0 AS build
+WORKDIR /src
+
+COPY backend/backend.csproj backend/NuGet.Config ./backend/
+RUN dotnet restore ./backend/backend.csproj --configfile ./backend/NuGet.Config
+
+COPY backend ./backend
+COPY frontend ./frontend
+
+RUN dotnet publish ./backend/backend.csproj -c Release -o /app/publish /p:UseAppHost=false
+
+FROM mcr.microsoft.com/dotnet/aspnet:10.0 AS final
+WORKDIR /app/backend
+
+COPY --from=build /app/publish ./
+COPY --from=build /src/frontend /app/frontend
+
+ENV ASPNETCORE_URLS=http://0.0.0.0:5000
+EXPOSE 5000
+
+ENTRYPOINT ["dotnet", "backend.dll"]

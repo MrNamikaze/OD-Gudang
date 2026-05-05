@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Laporan | OD Gudang</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css?v=20260422b">
+</head>
+<body data-page="laporan">
+  <div id="app" class="app-shell">
+    <aside class="sidebar">
+      <div class="brand-block">
+        <div class="brand-mark">OD</div>
+        <div>
+          <strong>OD Gudang</strong>
+          <span>Sistem Monitoring</span>
+        </div>
+      </div>
+      <nav class="menu">
+        <a v-for="item in navItems" :key="item.href" :href="item.href" :class="{ active: item.key === currentPage }">
+          {{ item.label }}
+        </a>
+      </nav>
+      <div class="sidebar-foot card compact">
+        <span class="muted">Pengguna aktif</span>
+        <strong>{{ currentUser.username }}</strong>
+        <button class="btn btn-secondary" @click="logout">Logout</button>
+      </div>
+    </aside>
+
+    <main class="main-content">
+      <header class="topbar">
+        <div>
+          <span class="eyebrow">Report System</span>
+          <h1>Laporan Deteksi Objek</h1>
+        </div>
+        <button class="btn btn-primary" @click="exportReport">Export Laporan</button>
+      </header>
+
+      <section class="card panel">
+        <div class="filter-grid">
+          <label class="field">
+            <span>Tanggal Mulai</span>
+            <input v-model="filters.startDate" type="date">
+          </label>
+          <label class="field">
+            <span>Tanggal Akhir</span>
+            <input v-model="filters.endDate" type="date">
+          </label>
+          <label class="field">
+            <span>Jam Mulai</span>
+            <input v-model="filters.startTime" type="time">
+          </label>
+          <label class="field">
+            <span>Jam Akhir</span>
+            <input v-model="filters.endTime" type="time">
+          </label>
+          <label class="field">
+            <span>Kamera</span>
+            <select v-model="filters.camera">
+              <option value="">Semua Kamera</option>
+              <option v-for="camera in cameras" :key="camera.id" :value="camera.id">{{ camera.id }}</option>
+            </select>
+          </label>
+          <label class="field">
+            <span>Objek</span>
+            <select v-model="filters.object">
+              <option value="">Semua Objek</option>
+              <option v-for="object in objectOptions" :key="object" :value="object">{{ object }}</option>
+            </select>
+          </label>
+        </div>
+        <div class="report-actions">
+          <button class="btn btn-primary" @click="applyReportFilters">Tampilkan Data</button>
+          <button class="btn btn-secondary" @click="exportReport">Export Sesuai Filter</button>
+        </div>
+      </section>
+
+      <section class="stats-grid report">
+        <article class="card stat-card">
+          <span>Total Data Tersaring</span>
+          <strong>{{ filteredDetections.length }}</strong>
+          <small>Event sesuai filter aktif</small>
+        </article>
+        <article class="card stat-card">
+          <span>Objek Teratas</span>
+          <strong>{{ filteredTopObject.name }}</strong>
+          <small>{{ filteredTopObject.count }} kejadian</small>
+        </article>
+        <article class="card stat-card">
+          <span>Kamera Tersibuk</span>
+          <strong>{{ busiestCamera }}</strong>
+          <small>Berdasarkan hasil filter</small>
+        </article>
+      </section>
+
+      <section class="card panel">
+        <div class="panel-head">
+          <div>
+            <span class="eyebrow">Data Tabel</span>
+            <h2>Riwayat Deteksi</h2>
+          </div>
+        </div>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>Waktu</th>
+                <th>Objek</th>
+                <th>Kamera</th>
+                <th>Zona</th>
+                <th>Confidence</th>
+                <th>Screenshot</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr v-for="event in filteredDetections" :key="event.id">
+                <td>{{ formatTimestamp(event.timestampUtc) }}</td>
+                <td>{{ event.objectName }}</td>
+                <td>{{ event.cameraId }}</td>
+                <td>{{ event.zone }}</td>
+                <td>{{ Math.round(event.confidence * 100) }}%</td>
+                <td>
+                  <a :href="event.imagePath" target="_blank" rel="noopener">
+                    <img :src="event.imagePath" :alt="screenshotLabel(event.imagePath)" class="report-thumb">
+                  </a>
+                </td>
+              </tr>
+              <tr v-if="filteredDetections.length === 0">
+                <td colspan="6" class="muted">Belum ada hasil deteksi yang tersimpan di database.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <script src="https://unpkg.com/exceljs@4.4.0/dist/exceljs.min.js"></script>
+  <script src="https://unpkg.com/vue@3/dist/vue.global.prod.js"></script>
+  <script src="app.js?v=20260422b"></script>
+</body>
+</html>

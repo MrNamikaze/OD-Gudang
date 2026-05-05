@@ -1,0 +1,195 @@
+Object detection berjalan. Tekan tombol Q untuk keluar.
+[INFO] Object terdeteksi. Capture disimpan: D:\Project\OD Gudang\python\output\captures\capture_20260502_175613_463946.jpg
+[OK] Object 'chair' dipublish ke queue 'odgudang.detections' dengan capture 'capture_20260502_175613_463946.jpg'.
+[INFO] Object terdeteksi. Capture disimpan: D:\Project\OD Gudang\python\output\captures\capture_20260502_175616_522034.jpg
+[OK] Object 'chair' dipublish ke queue 'odgudang.detections' dengan capture 'capture_20260502_175616_522034.jpg'.
+[INFO] Object terdeteksi. Capture disimpan: D:\Project\OD Gudang\python\output\captures\capture_20260502_175619_530300.jpg
+[OK] Object 'chair' dipublish ke queue 'odgudang.detections' dengan capture 'capture_20260502_175619_530300.jpg'.
+[INFO] Object terdeteksi. Capture disimpan: D:\Project\OD Gudang\python\output\captures\capture_20260502_175622_592411.jpg
+[OK] Object 'chair' dipublish ke queue 'odgudang.detections' dengan capture 'capture_20260502_175622_592411.jpg'.
+[INFO] Object terdeteksi. Capture disimpan: D:\Project\OD Gudang\python\output\captures\capture_20260502_175625_640009.jpg
+[OK] Object 'chair' dipublish ke queue 'odgudang.detections' dengan capture 'capture_20260502_175625_640009.jpg'.
+[INFO] Object terdeteksi. Capture disimpan: D:\Project\OD Gudang\python\output\captures\capture_20260502_175628_714784.jpg
+[OK] Object 'chair' dipublish ke queue 'odgudang.detections' dengan capture 'capture_20260502_175628_714784.jpg'.
+[INFO] Object terdeteksi. Capture disimpan: D:\Project\OD Gudang\python\output\captures\capture_20260502_175631_790788.jpg
+[OK] Object 'chair' dipublish ke queue 'odgudang.detections' dengan capture 'capture_20260502_175631_790788.jpg'.
+[INFO] Object terdeteksi. Capture disimpan: D:\Project\OD Gudang\python\output\captures\capture_20260502_175634_796581.jpg
+[OK] Object 'chair' dipublish ke queue 'odgudang.detections' dengan capture 'capture_20260502_175634_796581.jpg'.
+[INFO] Object terdeteksi. Capture disimpan: D:\Project\OD Gudang\python\output\captures\capture_20260502_175637_850108.jpg
+[OK] Object 'chair' dipublish ke queue 'odgudang.detections' dengan capture 'capture_20260502_175637_850108.jpg'.
+[INFO] Object terdeteksi. Capture disimpan: D:\Project\OD Gudang\python\output\captures\capture_20260502_175640_879096.jpg
+[OK] Object 'chair' dipublish ke queue 'odgudang.detections' dengan capture 'capture_20260502_175640_879096.jpg'.
+[INFO] Object terdeteksi. Capture disimpan: D:\Project\OD Gudang\python\output\captures\capture_20260502_175643_898254.jpg
+[OK] Object 'chair' dipublish ke queue 'odgudang.detections' dengan capture 'capture_20260502_175643_898254.jpg'.
+[INFO] Object terdeteksi. Capture disimpan: D:\Project\OD Gudang\python\output\captures\capture_20260502_175646_948925.jpg
+[OK] Object 'chair' dipublish ke queue 'odgudang.detections' dengan capture 'capture_20260502_175646_948925.jpg'.
+[INFO] Object terdeteksi. Capture disimpan: D:\Project\OD Gudang\python\output\captures\capture_20260502_175649_956195.jpg
+[OK] Object 'chair' dipublish ke queue 'odgudang.detections' dengan capture 'capture_20260502_175649_956195.jpg'.
+[INFO] Object terdeteksi. Capture disimpan: D:\Project\OD Gudang\python\output\captures\capture_20260502_175652_956592.jpg
+[OK] Object 'person' dipublish ke queue 'odgudang.detections' dengan capture 'capture_20260502_175652_956592.jpg'.
+[INFO] Object terdeteksi. Capture disimpan: D:\Project\OD Gudang\python\output\captures\capture_20260502_175656_010798.jpg
+[OK] Object 'person' dipublish ke queue 'odgudang.detections' dengan capture 'capture_20260502_175656_010798.jpg'.
+[INFO] Object terdeteksi. Capture disimpan: D:\Project\OD Gudang\python\output\captures\capture_20260502_175659_014010.jpg
+[OK] Object 'person' dipublish ke queue 'odgudang.detections' dengan capture 'capture_20260502_175659_014010.jpg'.
+[INFO] Object terdeteksi. Capture disimpan: D:\Project\OD Gudang\python\output\captures\capture_20260502_175702_074254.jpg
+[OK] Object 'person' dipublish ke queue 'odgudang.detections' dengan capture 'capture_20260502_175702_074254.jpg'.
+[INFO] Object terdeteksi. Capture disimpan: D:\Project\OD Gudang\python\output\captures\capture_20260502_175705_114264.jpg
+[OK] Object 'person' dipublish ke queue 'odgudang.detections' dengan capture 'capture_20260502_175705_114264.jpg'.
+[INFO] Object terdeteksi. Capture disimpan: D:\Project\OD Gudang\python\output\captures\capture_20260502_175708_126514.jpg
+[OK] Object 'person' dipublish ke queue 'odgudang.detections' dengan capture 'capture_20260502_175708_126514.jpg'.
+[INFO] Object terdeteksi. Capture disimpan: D:\Project\OD Gudang\python\output\captures\capture_20260502_175711_201580.jpg
+[OK] Object 'chair' dipublish ke queue 'odgudang.detections' dengan capture 'capture_20260502_175711_201580.jpg'.
+[INFO] Object terdeteksi. Capture disimpan: D:\Project\OD Gudang\python\output\captures\capture_20260502_175714_275526.jpg
+[OK] Object 'chair' dipublish ke queue 'odgudang.detections' dengan capture 'capture_20260502_175714_275526.jpg'.
+[INFO] Object terdeteksi. Capture disimpan: D:\Project\OD Gudang\python\output\captures\capture_20260502_175717_350244.jpg
+[OK] Object 'chair' dipublish ke queue 'odgudang.detections' dengan capture 'capture_20260502_175717_350244.jpg'.
+[INFO] Object terdeteksi. Capture disimpan: D:\Project\OD Gudang\python\output\captures\capture_20260502_175720_399251.jpg
+[OK] Object 'chair' dipublish ke queue 'odgudang.detections' dengan capture 'capture_20260502_175720_399251.jpg'.
+[INFO] Object terdeteksi. Capture disimpan: D:\Project\OD Gudang\python\output\captures\capture_20260502_175723_453757.jpg
+[OK] Object 'chair' dipublish ke queue 'odgudang.detections' dengan capture 'capture_20260502_175723_453757.jpg'.
+[INFO] Object terdeteksi. Capture disimpan: D:\Project\OD Gudang\python\output\captures\capture_20260502_175726_476861.jpg
+[OK] Object 'chair' dipublish ke queue 'odgudang.detections' dengan capture 'capture_20260502_175726_476861.jpg'.
+[INFO] Object terdeteksi. Capture disimpan: D:\Project\OD Gudang\python\output\captures\capture_20260502_175729_534515.jpg
+[OK] Object 'chair' dipublish ke queue 'odgudang.detections' dengan capture 'capture_20260502_175729_534515.jpg'.
+[INFO] Object terdeteksi. Capture disimpan: D:\Project\OD Gudang\python\output\captures\capture_20260502_175732_582444.jpg
+[OK] Object 'chair' dipublish ke queue 'odgudang.detections' dengan capture 'capture_20260502_175732_582444.jpg'.
+[INFO] Object terdeteksi. Capture disimpan: D:\Project\OD Gudang\python\output\captures\capture_20260502_175735_618707.jpg
+[OK] Object 'chair' dipublish ke queue 'odgudang.detections' dengan capture 'capture_20260502_175735_618707.jpg'.
+[INFO] Object terdeteksi. Capture disimpan: D:\Project\OD Gudang\python\output\captures\capture_20260502_175738_691833.jpg
+[OK] Object 'chair' dipublish ke queue 'odgudang.detections' dengan capture 'capture_20260502_175738_691833.jpg'.
+[INFO] Object terdeteksi. Capture disimpan: D:\Project\OD Gudang\python\output\captures\capture_20260502_175741_739460.jpg
+[OK] Object 'chair' dipublish ke queue 'odgudang.detections' dengan capture 'capture_20260502_175741_739460.jpg'.
+[OK] Object 'sofa' dipublish ke queue 'odgudang.detections' dengan capture 'capture_20260502_175741_739460.jpg'.
+[INFO] Object terdeteksi. Capture disimpan: D:\Project\OD Gudang\python\output\captures\capture_20260502_175744_800451.jpg
+[OK] Object 'chair' dipublish ke queue 'odgudang.detections' dengan capture 'capture_20260502_175744_800451.jpg'.
+[INFO] Object terdeteksi. Capture disimpan: D:\Project\OD Gudang\python\output\captures\capture_20260502_175747_841226.jpg
+[OK] Object 'person' dipublish ke queue 'odgudang.detections' dengan capture 'capture_20260502_175747_841226.jpg'.
+[OK] Object 'chair' dipublish ke queue 'odgudang.detections' dengan capture 'capture_20260502_175747_841226.jpg'.
+[INFO] Object terdeteksi. Capture disimpan: D:\Project\OD Gudang\python\output\captures\capture_20260502_175750_842205.jpg
+[OK] Object 'chair' dipublish ke queue 'odgudang.detections' dengan capture 'capture_20260502_175750_842205.jpg'.
+[INFO] Object terdeteksi. Capture disimpan: D:\Project\OD Gudang\python\output\captures\capture_20260502_175753_861502.jpg
+[OK] Object 'chair' dipublish ke queue 'odgudang.detections' dengan capture 'capture_20260502_175753_861502.jpg'.
+[INFO] Object terdeteksi. Capture disimpan: D:\Project\OD Gudang\python\output\captures\capture_20260502_175756_896406.jpg
+[OK] Object 'chair' dipublish ke queue 'odgudang.detections' dengan capture 'capture_20260502_175756_896406.jpg'.
+[INFO] Object terdeteksi. Capture disimpan: D:\Project\OD Gudang\python\output\captures\capture_20260502_175759_908549.jpg
+[OK] Object 'chair' dipublish ke queue 'odgudang.detections' dengan capture 'capture_20260502_175759_908549.jpg'.
+[INFO] Object terdeteksi. Capture disimpan: D:\Project\OD Gudang\python\output\captures\capture_20260502_175802_931255.jpg
+[OK] Object 'chair' dipublish ke queue 'odgudang.detections' dengan capture 'capture_20260502_175802_931255.jpg'.
+[INFO] Object terdeteksi. Capture disimpan: D:\Project\OD Gudang\python\output\captures\capture_20260502_175805_974481.jpg
+[OK] Object 'chair' dipublish ke queue 'odgudang.detections' dengan capture 'capture_20260502_175805_974481.jpg'.
+[INFO] Object terdeteksi. Capture disimpan: D:\Project\OD Gudang\python\output\captures\capture_20260502_175808_999251.jpg
+[OK] Object 'chair' dipublish ke queue 'odgudang.detections' dengan capture 'capture_20260502_175808_999251.jpg'.
+[INFO] Object terdeteksi. Capture disimpan: D:\Project\OD Gudang\python\output\captures\capture_20260502_175812_062250.jpg
+[OK] Object 'chair' dipublish ke queue 'odgudang.detections' dengan capture 'capture_20260502_175812_062250.jpg'.
+[INFO] Object terdeteksi. Capture disimpan: D:\Project\OD Gudang\python\output\captures\capture_20260502_175815_133572.jpg
+[OK] Object 'chair' dipublish ke queue 'odgudang.detections' dengan capture 'capture_20260502_175815_133572.jpg'.
+[INFO] Object terdeteksi. Capture disimpan: D:\Project\OD Gudang\python\output\captures\capture_20260502_175818_208781.jpg
+[OK] Object 'person' dipublish ke queue 'odgudang.detections' dengan capture 'capture_20260502_175818_208781.jpg'.
+[OK] Object 'chair' dipublish ke queue 'odgudang.detections' dengan capture 'capture_20260502_175818_208781.jpg'.
+[INFO] Object terdeteksi. Capture disimpan: D:\Project\OD Gudang\python\output\captures\capture_20260502_175821_365347.jpg
+[OK] Object 'person' dipublish ke queue 'odgudang.detections' dengan capture 'capture_20260502_175821_365347.jpg'.
+[INFO] Object terdeteksi. Capture disimpan: D:\Project\OD Gudang\python\output\captures\capture_20260502_175824_395496.jpg
+[OK] Object 'person' dipublish ke queue 'odgudang.detections' dengan capture 'capture_20260502_175824_395496.jpg'.
+[INFO] Object terdeteksi. Capture disimpan: D:\Project\OD Gudang\python\output\captures\capture_20260502_175827_445321.jpg
+[OK] Object 'chair' dipublish ke queue 'odgudang.detections' dengan capture 'capture_20260502_175827_445321.jpg'.
+[OK] Object 'pottedplant' dipublish ke queue 'odgudang.detections' dengan capture 'capture_20260502_175827_445321.jpg'.
+[INFO] Object terdeteksi. Capture disimpan: D:\Project\OD Gudang\python\output\captures\capture_20260502_175830_456161.jpg
+[OK] Object 'person' dipublish ke queue 'odgudang.detections' dengan capture 'capture_20260502_175830_456161.jpg'.
+[INFO] Object terdeteksi. Capture disimpan: D:\Project\OD Gudang\python\output\captures\capture_20260502_175833_504133.jpg
+[OK] Object 'pottedplant' dipublish ke queue 'odgudang.detections' dengan capture 'capture_20260502_175833_504133.jpg'.
+[OK] Object 'sofa' dipublish ke queue 'odgudang.detections' dengan capture 'capture_20260502_175833_504133.jpg'.
+[OK] Object 'chair' dipublish ke queue 'odgudang.detections' dengan capture 'capture_20260502_175833_504133.jpg'.
+[INFO] Object terdeteksi. Capture disimpan: D:\Project\OD Gudang\python\output\captures\capture_20260502_175836_515946.jpg
+[OK] Object 'sofa' dipublish ke queue 'odgudang.detections' dengan capture 'capture_20260502_175836_515946.jpg'.
+[OK] Object 'chair' dipublish ke queue 'odgudang.detections' dengan capture 'capture_20260502_175836_515946.jpg'.
+[INFO] Object terdeteksi. Capture disimpan: D:\Project\OD Gudang\python\output\captures\capture_20260502_175839_631176.jpg
+[OK] Object 'chair' dipublish ke queue 'odgudang.detections' dengan capture 'capture_20260502_175839_631176.jpg'.
+[INFO] Object terdeteksi. Capture disimpan: D:\Project\OD Gudang\python\output\captures\capture_20260502_175842_698257.jpg
+[OK] Object 'chair' dipublish ke queue 'odgudang.detections' dengan capture 'capture_20260502_175842_698257.jpg'.
+[INFO] Object terdeteksi. Capture disimpan: D:\Project\OD Gudang\python\output\captures\capture_20260502_175845_702805.jpg
+[OK] Object 'chair' dipublish ke queue 'odgudang.detections' dengan capture 'capture_20260502_175845_702805.jpg'.
+[INFO] Object terdeteksi. Capture disimpan: D:\Project\OD Gudang\python\output\captures\capture_20260502_175848_819910.jpg
+[OK] Object 'cat' dipublish ke queue 'odgudang.detections' dengan capture 'capture_20260502_175848_819910.jpg'.
+[INFO] Object terdeteksi. Capture disimpan: D:\Project\OD Gudang\python\output\captures\capture_20260502_175852_186296.jpg
+[OK] Object 'chair' dipublish ke queue 'odgudang.detections' dengan capture 'capture_20260502_175852_186296.jpg'.
+[INFO] Object terdeteksi. Capture disimpan: D:\Project\OD Gudang\python\output\captures\capture_20260502_175855_223408.jpg
+[OK] Object 'chair' dipublish ke queue 'odgudang.detections' dengan capture 'capture_20260502_175855_223408.jpg'.
+[INFO] Object terdeteksi. Capture disimpan: D:\Project\OD Gudang\python\output\captures\capture_20260502_175858_246608.jpg
+[OK] Object 'chair' dipublish ke queue 'odgudang.detections' dengan capture 'capture_20260502_175858_246608.jpg'.
+[INFO] Object terdeteksi. Capture disimpan: D:\Project\OD Gudang\python\output\captures\capture_20260502_175901_260346.jpg
+[OK] Object 'chair' dipublish ke queue 'odgudang.detections' dengan capture 'capture_20260502_175901_260346.jpg'.
+[INFO] Object terdeteksi. Capture disimpan: D:\Project\OD Gudang\python\output\captures\capture_20260502_175904_299086.jpg
+[OK] Object 'chair' dipublish ke queue 'odgudang.detections' dengan capture 'capture_20260502_175904_299086.jpg'.
+[INFO] Object terdeteksi. Capture disimpan: D:\Project\OD Gudang\python\output\captures\capture_20260502_175907_299739.jpg
+[OK] Object 'chair' dipublish ke queue 'odgudang.detections' dengan capture 'capture_20260502_175907_299739.jpg'.
+[INFO] Object terdeteksi. Capture disimpan: D:\Project\OD Gudang\python\output\captures\capture_20260502_175910_328453.jpg
+[OK] Object 'chair' dipublish ke queue 'odgudang.detections' dengan capture 'capture_20260502_175910_328453.jpg'.
+[INFO] Object terdeteksi. Capture disimpan: D:\Project\OD Gudang\python\output\captures\capture_20260502_175913_370945.jpg
+[OK] Object 'chair' dipublish ke queue 'odgudang.detections' dengan capture 'capture_20260502_175913_370945.jpg'.
+[INFO] Object terdeteksi. Capture disimpan: D:\Project\OD Gudang\python\output\captures\capture_20260502_175916_421878.jpg
+[OK] Object 'chair' dipublish ke queue 'odgudang.detections' dengan capture 'capture_20260502_175916_421878.jpg'.
+[INFO] Object terdeteksi. Capture disimpan: D:\Project\OD Gudang\python\output\captures\capture_20260502_175919_479674.jpg
+[OK] Object 'chair' dipublish ke queue 'odgudang.detections' dengan capture 'capture_20260502_175919_479674.jpg'.
+[INFO] Object terdeteksi. Capture disimpan: D:\Project\OD Gudang\python\output\captures\capture_20260502_175922_529202.jpg
+[OK] Object 'person' dipublish ke queue 'odgudang.detections' dengan capture 'capture_20260502_175922_529202.jpg'.
+[OK] Object 'chair' dipublish ke queue 'odgudang.detections' dengan capture 'capture_20260502_175922_529202.jpg'.
+[INFO] Object terdeteksi. Capture disimpan: D:\Project\OD Gudang\python\output\captures\capture_20260502_175925_529206.jpg
+[OK] Object 'pottedplant' dipublish ke queue 'odgudang.detections' dengan capture 'capture_20260502_175925_529206.jpg'.
+[OK] Object 'chair' dipublish ke queue 'odgudang.detections' dengan capture 'capture_20260502_175925_529206.jpg'.
+[INFO] Object terdeteksi. Capture disimpan: D:\Project\OD Gudang\python\output\captures\capture_20260502_175928_598357.jpg
+[OK] Object 'chair' dipublish ke queue 'odgudang.detections' dengan capture 'capture_20260502_175928_598357.jpg'.
+[OK] Object 'pottedplant' dipublish ke queue 'odgudang.detections' dengan capture 'capture_20260502_175928_598357.jpg'.
+[INFO] Object terdeteksi. Capture disimpan: D:\Project\OD Gudang\python\output\captures\capture_20260502_175931_660554.jpg
+[OK] Object 'person' dipublish ke queue 'odgudang.detections' dengan capture 'capture_20260502_175931_660554.jpg'.
+[INFO] Object terdeteksi. Capture disimpan: D:\Project\OD Gudang\python\output\captures\capture_20260502_175934_685488.jpg
+[OK] Object 'pottedplant' dipublish ke queue 'odgudang.detections' dengan capture 'capture_20260502_175934_685488.jpg'.
+[INFO] Object terdeteksi. Capture disimpan: D:\Project\OD Gudang\python\output\captures\capture_20260502_175937_701163.jpg
+[OK] Object 'person' dipublish ke queue 'odgudang.detections' dengan capture 'capture_20260502_175937_701163.jpg'.
+[INFO] Object terdeteksi. Capture disimpan: D:\Project\OD Gudang\python\output\captures\capture_20260502_175940_717551.jpg
+[OK] Object 'chair' dipublish ke queue 'odgudang.detections' dengan capture 'capture_20260502_175940_717551.jpg'.
+[INFO] Object terdeteksi. Capture disimpan: D:\Project\OD Gudang\python\output\captures\capture_20260502_175943_782797.jpg
+[OK] Object 'chair' dipublish ke queue 'odgudang.detections' dengan capture 'capture_20260502_175943_782797.jpg'.
+[INFO] Object terdeteksi. Capture disimpan: D:\Project\OD Gudang\python\output\captures\capture_20260502_175946_826104.jpg
+[OK] Object 'chair' dipublish ke queue 'odgudang.detections' dengan capture 'capture_20260502_175946_826104.jpg'.
+[INFO] Object terdeteksi. Capture disimpan: D:\Project\OD Gudang\python\output\captures\capture_20260502_175949_845378.jpg
+[OK] Object 'chair' dipublish ke queue 'odgudang.detections' dengan capture 'capture_20260502_175949_845378.jpg'.
+[INFO] Object terdeteksi. Capture disimpan: D:\Project\OD Gudang\python\output\captures\capture_20260502_175952_854549.jpg
+[OK] Object 'chair' dipublish ke queue 'odgudang.detections' dengan capture 'capture_20260502_175952_854549.jpg'.
+[INFO] Object terdeteksi. Capture disimpan: D:\Project\OD Gudang\python\output\captures\capture_20260502_175955_868288.jpg
+[OK] Object 'chair' dipublish ke queue 'odgudang.detections' dengan capture 'capture_20260502_175955_868288.jpg'.
+[INFO] Object terdeteksi. Capture disimpan: D:\Project\OD Gudang\python\output\captures\capture_20260502_175958_897809.jpg
+[OK] Object 'chair' dipublish ke queue 'odgudang.detections' dengan capture 'capture_20260502_175958_897809.jpg'.
+[INFO] Object terdeteksi. Capture disimpan: D:\Project\OD Gudang\python\output\captures\capture_20260502_180001_956149.jpg
+[OK] Object 'chair' dipublish ke queue 'odgudang.detections' dengan capture 'capture_20260502_180001_956149.jpg'.
+[INFO] Object terdeteksi. Capture disimpan: D:\Project\OD Gudang\python\output\captures\capture_20260502_180004_988324.jpg
+[OK] Object 'chair' dipublish ke queue 'odgudang.detections' dengan capture 'capture_20260502_180004_988324.jpg'.
+[INFO] Object terdeteksi. Capture disimpan: D:\Project\OD Gudang\python\output\captures\capture_20260502_180008_004463.jpg
+[OK] Object 'chair' dipublish ke queue 'odgudang.detections' dengan capture 'capture_20260502_180008_004463.jpg'.
+[INFO] Object terdeteksi. Capture disimpan: D:\Project\OD Gudang\python\output\captures\capture_20260502_180011_022929.jpg
+[OK] Object 'chair' dipublish ke queue 'odgudang.detections' dengan capture 'capture_20260502_180011_022929.jpg'.
+[INFO] Object terdeteksi. Capture disimpan: D:\Project\OD Gudang\python\output\captures\capture_20260502_180014_064864.jpg
+[OK] Object 'chair' dipublish ke queue 'odgudang.detections' dengan capture 'capture_20260502_180014_064864.jpg'.
+[INFO] Object terdeteksi. Capture disimpan: D:\Project\OD Gudang\python\output\captures\capture_20260502_180017_074275.jpg
+[OK] Object 'chair' dipublish ke queue 'odgudang.detections' dengan capture 'capture_20260502_180017_074275.jpg'.
+[INFO] Object terdeteksi. Capture disimpan: D:\Project\OD Gudang\python\output\captures\capture_20260502_180020_105274.jpg
+[OK] Object 'chair' dipublish ke queue 'odgudang.detections' dengan capture 'capture_20260502_180020_105274.jpg'.
+[INFO] Object terdeteksi. Capture disimpan: D:\Project\OD Gudang\python\output\captures\capture_20260502_180023_149383.jpg
+[OK] Object 'chair' dipublish ke queue 'odgudang.detections' dengan capture 'capture_20260502_180023_149383.jpg'.
+[INFO] Object terdeteksi. Capture disimpan: D:\Project\OD Gudang\python\output\captures\capture_20260502_180026_182778.jpg
+[OK] Object 'chair' dipublish ke queue 'odgudang.detections' dengan capture 'capture_20260502_180026_182778.jpg'.
+[INFO] Object terdeteksi. Capture disimpan: D:\Project\OD Gudang\python\output\captures\capture_20260502_180029_203384.jpg
+[OK] Object 'person' dipublish ke queue 'odgudang.detections' dengan capture 'capture_20260502_180029_203384.jpg'.
+[INFO] Object terdeteksi. Capture disimpan: D:\Project\OD Gudang\python\output\captures\capture_20260502_180032_244231.jpg
+[OK] Object 'person' dipublish ke queue 'odgudang.detections' dengan capture 'capture_20260502_180032_244231.jpg'.
+[INFO] Object terdeteksi. Capture disimpan: D:\Project\OD Gudang\python\output\captures\capture_20260502_180035_280969.jpg
+[OK] Object 'person' dipublish ke queue 'odgudang.detections' dengan capture 'capture_20260502_180035_280969.jpg'.
+[INFO] Object terdeteksi. Capture disimpan: D:\Project\OD Gudang\python\output\captures\capture_20260502_180038_335043.jpg
+[OK] Object 'person' dipublish ke queue 'odgudang.detections' dengan capture 'capture_20260502_180038_335043.jpg'.
+[INFO] Object terdeteksi. Capture disimpan: D:\Project\OD Gudang\python\output\captures\capture_20260502_180041_344974.jpg
+[OK] Object 'person' dipublish ke queue 'odgudang.detections' dengan capture 'capture_20260502_180041_344974.jpg'.
+[INFO] Object terdeteksi. Capture disimpan: D:\Project\OD Gudang\python\output\captures\capture_20260502_180044_370062.jpg
+[OK] Object 'person' dipublish ke queue 'odgudang.detections' dengan capture 'capture_20260502_180044_370062.jpg'.
+[INFO] Object terdeteksi. Capture disimpan: D:\Project\OD Gudang\python\output\captures\capture_20260502_180047_385002.jpg
+[OK] Object 'person' dipublish ke queue 'odgudang.detections' dengan capture 'capture_20260502_180047_385002.jpg'.
+[INFO] Object terdeteksi. Capture disimpan: D:\Project\OD Gudang\python\output\captures\capture_20260502_180050_447131.jpg
+[OK] Object 'person' dipublish ke queue 'odgudang.detections' dengan capture 'capture_20260502_180050_447131.jpg'.
