@@ -12,12 +12,6 @@ Membangun sistem yang mampu:
 
 ---
 
-## **2\. Gambaran Sistem (High-Level Architecture)**
-
-**![https://images.openai.com/static-rsc-4/ZJDD0Ry3jQZ1\_d4DmrgQEo43bOWuFDrDtUd1IG5smAJpDKQDEKSnhOIVOZWI6kWTR6lGNLNBjsYD2S1byef\_kK\_ofKcvOn\_ds3vQE-2OCHrQvgB5ifEvuGEunrIvA3953XBJZRhNaHrZhIvAfSaUORhjh7Wr8cPjXVmv1F5LA8xaLuP5I5xt3nG\_BklUIQ9m?purpose=fullsize][image1]**
-
-**![https://images.openai.com/static-rsc-4/kLJy0z1f0JTuoTQsMHoQxOliIteEzMYcL3iDQXMnBPOuqqsT7j7I6Elo3v5yVUuBjbMykUqhm82jrx9JzDRS7CnozGy2lDupzfBEmKpWqkasB6a3mJ4JYkHF7lz1lkIA96V2dVVYs1R-FwsRbCbsIQcaSxbkeqt7DqFkwacWSFCywEf1r-pTsYl3gTWiU-Sa?purpose=fullsize][image2]**  
-6
 
 ### **Komponen:**
 
@@ -119,9 +113,6 @@ GET /api/detection?start=2026-04-01\&end=2026-04-22
 
 ## **5\. Flow Sistem**
 
-**![https://images.openai.com/static-rsc-4/gEv42o2iBQOVnxcfPS8cCskOs\_70wza\_WrlAtxh63Jp-1pDqxE5bWaD2R8DJkXva3R3IUtqoxS3l4Gt28wL7pWC7WFEMwha1IeeToXJekAh1JcP3dw5RDzfYO8fgp9QYz2pfJnapgn\_lexdM-uZadrRz0lOHd\_WLk4MyGLS2tBwNoUKgVocREtdU2i15Gnyg?purpose=fullsize][image3]**  
-**![https://images.openai.com/static-rsc-4/vSHR0a9x4pEovQp1lL6zpP0Ej3rc0yuHnW0\_hZ2NXhafX0ZERq5gBuSkPytS8HeLPGXEHwZ49EAUORvcNCIR0Jh6B\_m2GPQJqFn4ljntLC8hiwnSOVeadj0CUUgDhNbEpwhG8fxvgUVmzTeLDc2DUG67rTq1YuEFGR5u87-v\_6EpaiRgR22pWwce-He1EU5H?purpose=fullsize][image4]**  
-**![https://images.openai.com/static-rsc-4/l5Ryr8mkLPUGKb9xjRvVVJQmKV9QrwpQCj14\_Y-S8vyJgLGx176bo5468q4VJj1qyi4Log\_fdJ0hn4YqvhaUCaS-3B-XN9yj\_4F5kHa30YkBcZk4xFjiwNu6X2jp8uK\_mW9VRGvQudacGvRHOR\_YCpT3BsJ12BiSPWxMWHJ9kNDbgQ5ea4FlXKWAOX\_xgT1m?purpose=fullsize][image5]**
 
 ### **Alur:**
 
